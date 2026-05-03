@@ -1,18 +1,29 @@
-🚗 Araç Kiralama Yönetim Sistemi
-Bu proje, bir araç kiralama acentesinin filosunu dijital ortamda yönetebilmesi, kiralama sözleşmelerini takip edebilmesi ve araç müsaitlik durumlarını organize edebilmesi için geliştirilmiş C# Windows Forms tabanlı bir yönetim yazılımıdır.
+🚗 Araç Kiralama Otomasyonu
+Bu proje, C# (Windows Forms) ve SQL Server kullanılarak geliştirilmiş profesyonel bir Araç Kiralama Otomasyonudur. Uygulama, araç filosunun yönetiminden müşteri sözleşmelerine kadar tüm süreci dijital ortamda takip etmenizi sağlar.
 
 🚀 Özellikler
-🏎️ Filo Yönetimi: Araçların marka, model, plaka ve yakıt türü gibi detaylarla sisteme kaydedilmesi.
+🏎️ Araç Filosu Yönetimi: Araç listeleme, ekleme, güncelleme ve silme (CRUD) işlemleri.
 
-📅 Rezervasyon Sistemi: Belirli tarih aralıkları için araç tahsisi ve müsaitlik takibi.
+👤 Müşteri Kayıt Sistemi: Müşteri bilgilerinin ve kiralama geçmişinin takibi.
 
-💰 Maliyet Hesabı: Günlük kiralama bedeli üzerinden toplam ücretin otomatik hesaplanması.
+📅 Kiralama ve Teslim: Araçların müsaitlik durumuna göre kiralama işlemlerinin yapılması.
 
-👤 Müşteri Kaydı: Kiracı bilgilerinin ve kiralama geçmişinin düzenli bir yapıda saklanması.
+📂 SQL Server Bağlantısı: Verilerin güvenli ve performanslı bir şekilde veritabanında saklanması.
 
 🛠️ Kullanılan Teknolojiler
-Programlama Dili: C# (.NET).
+C# (Windows Forms)
 
-Arayüz: Windows Forms App.
+.NET Framework
 
-Mimari: Nesne Tabanlı Programlama (OOP).
+SQL Server
+
+ADO.NET (Veritabanı bağlantı yönetimi için)
+
+⚙️ Kurulum ve Çalıştırma
+Solution Dosyasını Açın: Visual Studio (2019 veya 2022) üzerinden projenin içindeki .sln dosyasına çift tıklayın.
+
+Veritabanı Ayarı: App.config veya bağlantı sınıfındaki ConnectionString kısmını kendi yerel SQL Server bilgilerinizle güncelleyin.
+
+Derleyin: Üst menüden Build > Build Solution seçeneğine tıklayarak projenin hatasız derlendiğinden emin olun.
+
+Başlatın: Yeşil "Start" butonuna veya F5 tuşuna basarak uygulamayı çalıştırın.

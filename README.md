@@ -1,14 +1,16 @@
-🚗 Araç Kiralama Otomasyonu
-Bu proje, C# (Windows Forms) ve SQL Server kullanılarak geliştirilmiş profesyonel bir Araç Kiralama Otomasyonudur. Uygulama, araç filosunun yönetiminden müşteri sözleşmelerine kadar tüm süreci dijital ortamda takip etmenizi sağlar.
+🏎️ Araç Kiralama Otomasyonu
+Bu proje, C# (Windows Forms) ve SQL Server kullanılarak geliştirilmiş profesyonel bir Araç Kiralama Otomasyonudur. Uygulama; araç filosunun yönetiminden müşteri sözleşmelerine kadar tüm süreci dijital ortamda takip etmenizi sağlar.
 
 🚀 Özellikler
-🏎️ Araç Filosu Yönetimi: Araç listeleme, ekleme, güncelleme ve silme (CRUD) işlemleri.
+🚙 Araç Listesi: Filodaki tüm araçların detaylı görüntülenmesi.
 
-👤 Müşteri Kayıt Sistemi: Müşteri bilgilerinin ve kiralama geçmişinin takibi.
+➕ Yeni Araç Ekleme: Marka, model ve plaka bazlı envanter girişi.
 
-📅 Kiralama ve Teslim: Araçların müsaitlik durumuna göre kiralama işlemlerinin yapılması.
+📝 Güncelleme ve Silme: Mevcut araç ve müşteri bilgilerinin yönetimi.
 
-📂 SQL Server Bağlantısı: Verilerin güvenli ve performanslı bir şekilde veritabanında saklanması.
+👤 Müşteri Kaydı: Kiralama yapan kişilerin veritabanına işlenmesi.
+
+📅 Teslimat İşlemleri: Araçların kira başlangıç ve bitiş tarihlerinin takibi.
 
 🛠️ Kullanılan Teknolojiler
 C# (Windows Forms)
@@ -17,13 +19,11 @@ C# (Windows Forms)
 
 SQL Server
 
-ADO.NET (Veritabanı bağlantı yönetimi için)
+ADO.NET (SqlConnection, SqlCommand)
 
 ⚙️ Kurulum ve Çalıştırma
-Solution Dosyasını Açın: Visual Studio (2019 veya 2022) üzerinden projenin içindeki .sln dosyasına çift tıklayın.
+Solution'ı Açın: Visual Studio üzerinden .sln dosyasına çift tıklayarak projeyi yükleyin.
 
-Veritabanı Ayarı: App.config veya bağlantı sınıfındaki ConnectionString kısmını kendi yerel SQL Server bilgilerinizle güncelleyin.
+Veritabanı Ayarı: App.config dosyasındaki connectionString kısmına kendi yerel SQL Server kullanıcı adı ve parolanızı girin.
 
-Derleyin: Üst menüden Build > Build Solution seçeneğine tıklayarak projenin hatasız derlendiğinden emin olun.
-
-Başlatın: Yeşil "Start" butonuna veya F5 tuşuna basarak uygulamayı çalıştırın.
+Başlatın: Klavyeden F5 tuşuna basarak veya üst paneldeki yeşil "Start" butonuna tıklayarak uygulamayı ayağa kaldırın.

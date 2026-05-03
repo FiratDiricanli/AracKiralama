@@ -1,29 +1,25 @@
-🏎️ Araç Kiralama Otomasyonu
-Bu proje, C# (Windows Forms) ve SQL Server kullanılarak geliştirilmiş profesyonel bir Araç Kiralama Otomasyonudur. Uygulama; araç filosunun yönetiminden müşteri sözleşmelerine kadar tüm süreci dijital ortamda takip etmenizi sağlar.
+🎓 Online Kurs Platformu
+Eğitmenlerin ders içerikleri oluşturabildiği, öğrencilerin ise bu içeriklere erişerek kendi öğrenme süreçlerini yönetebildiği kapsamlı bir E-Öğrenme Yönetim Sistemi yazılımıdır.
 
 🚀 Özellikler
-🚙 Araç Listesi: Filodaki tüm araçların detaylı görüntülenmesi.
+👨‍🏫 Eğitmen Paneli: Yeni kursların oluşturulması ve içerik detaylarının yönetimi.
 
-➕ Yeni Araç Ekleme: Marka, model ve plaka bazlı envanter girişi.
+📝 Kayıt ve İlerleme: Öğrencilerin kurslara kayıt olması ve ders takibi.
 
-📝 Güncelleme ve Silme: Mevcut araç ve müşteri bilgilerinin yönetimi.
+🗂️ Kategorizasyon: Kursların uzmanlık alanlarına göre filtrelenmesi.
 
-👤 Müşteri Kaydı: Kiralama yapan kişilerin veritabanına işlenmesi.
-
-📅 Teslimat İşlemleri: Araçların kira başlangıç ve bitiş tarihlerinin takibi.
+🔑 Yetkilendirme: Kullanıcı rollerine göre özelleştirilmiş erişim yetkileri.
 
 🛠️ Kullanılan Teknolojiler
 C# (Windows Forms)
 
 .NET Framework
 
-SQL Server
-
-ADO.NET (SqlConnection, SqlCommand)
+Nesne Tabanlı Programlama (OOP)
 
 ⚙️ Kurulum ve Çalıştırma
-Solution'ı Açın: Visual Studio üzerinden .sln dosyasına çift tıklayarak projeyi yükleyin.
+Solution Dosyasını Açın: Visual Studio üzerinden projenin içindeki .sln dosyasına çift tıklayın.
 
-Veritabanı Ayarı: App.config dosyasındaki connectionString kısmına kendi yerel SQL Server kullanıcı adı ve parolanızı girin.
+Derleme: Üst menüden Build > Build Solution diyerek projenin hatasız derlendiğinden emin olun.
 
-Başlatın: Klavyeden F5 tuşuna basarak veya üst paneldeki yeşil "Start" butonuna tıklayarak uygulamayı ayağa kaldırın.
+Başlatın: Yeşil "Start" butonuna veya F5 tuşuna basarak uygulamayı çalıştırın.

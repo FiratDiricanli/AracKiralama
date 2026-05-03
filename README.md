@@ -1,23 +1,18 @@
 🚗 Araç Kiralama Yönetim Sistemi
-Bu proje, bir araç kiralama acentesinin filosunu dijital ortamda yönetebilmesi, kiralama sözleşmelerini takip edebilmesi ve araç müsaitlik durumlarını organize edebilmesi için geliştirilmiş bir Filo Yönetim Sistemi yazılımıdır.
+Bu proje, bir araç kiralama acentesinin filosunu dijital ortamda yönetebilmesi, kiralama sözleşmelerini takip edebilmesi ve araç müsaitlik durumlarını organize edebilmesi için geliştirilmiş C# Windows Forms tabanlı bir yönetim yazılımıdır.
 
-🛣️ Proje Vizyonu
-Operasyonel süreçleri optimize etmeyi amaçlayan bu uygulama; kiralama işlemlerindeki hataları minimize etmek ve verimliliği artırmak için Nesne Tabanlı Programlama (OOP) prensipleriyle inşa edilmiştir.
+🚀 Özellikler
+🏎️ Filo Yönetimi: Araçların marka, model, plaka ve yakıt türü gibi detaylarla sisteme kaydedilmesi.
 
-🚀 Öne Çıkan Özellikler
-Dinamik Filo Yönetimi: Araçların marka, model, plaka ve yakıt türü gibi detaylarla sisteme kaydedilmesi.
+📅 Rezervasyon Sistemi: Belirli tarih aralıkları için araç tahsisi ve müsaitlik takibi.
 
-Kiralama ve Rezervasyon: Günlük kiralama bedeli üzerinden maliyet hesaplama ve belirli tarih aralıkları için araç tahsisi.
+💰 Maliyet Hesabı: Günlük kiralama bedeli üzerinden toplam ücretin otomatik hesaplanması.
 
-Müsaitlik Takibi: Araçların "Boşta", "Kirada" veya "Bakımda" gibi durumlarının anlık olarak izlenmesi.
+👤 Müşteri Kaydı: Kiracı bilgilerinin ve kiralama geçmişinin düzenli bir yapıda saklanması.
 
-Müşteri Kayıt Modülü: Kiracı bilgilerinin ve kiralama geçmişinin düzenli bir yapıda saklanması.
+🛠️ Kullanılan Teknolojiler
+Programlama Dili: C# (.NET).
 
-Fiyatlandırma Motoru: Kiralama süresine bağlı olarak toplam ücretin otomatik hesaplanması.
-
-🛠️ Teknik Altyapı
-Dil: Python.
+Arayüz: Windows Forms App.
 
 Mimari: Nesne Tabanlı Programlama (OOP).
-
-Sınıf Tasarımı: Arac, Musteri ve KiralamaIslemi sınıfları arasındaki ilişkisel modelleme.
